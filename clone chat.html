@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT CLONE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <i class="fas fa-arrow-left back icon"></i>
+        <div class="profile-pic" style="background-image: url(https://www.facebook.com/photo/?fbid=122143876442352198&set=a.122095690964352198);"
+    </div>
+    <div class="user-info">
+        <p class="username">Ryan Andrei</p>
+        <p class="status">Online</p>
+    </div>
+    <div class="header-icons">
+        <i class="fas fa-video header-icons"></i>
+        <i class="fas fa-phone header-icons"></i>
+        <i class="fas fa-ellipse-v header-icons" onclick="toggleDropdown()"></i>
+        <div id="dropdownMenu" class="dropdown-menu">
+            <a href="#">Contact</a>
+            <a href="#">Media, Files, Link</a>
+            <a href="#">Information</a>
+            <a href="#">Notification</a> 
+            <a href="#">Wallpaper</a>
+            <a href="#">Profile</a>
+        </div>
+      </div>
+    </div>
+<div class="chat-container">
+<div class="encryption-message"
+<span>upgraded the security of this chat. New messages and calls are secured with end-to-end encryption.   
+</span>
+</div>
+<div class="timestamp">Time</div>
+<div class="message sent">Hello Ryan<span class="time">12:30</span> 
+</div>
+<div class="message received">Hello Bro<span class="time">12:32</span>
+</div> 
+</div>
+<div class="footer">
+    <i class="far fa-smile icon"></i>
+    <input type="text" placeholder="ketikpesan">
+    <i class="fas fa-smile icon" onclick="toggleAttachMenu()"></i>
+    <button> <i class="fas fa-microphone"></i> </button>
+</div>
+<div id="attachMenu" class="attach-menu">
+<div class="attach-item"><i class="fas fa-image"</div>
+<div class="attach-item"><i class="fas fa-camera"</div>
+<div class="attach-item"><i class="fas fa-headphone"</div>
+</div>
+<div class="attach=row">
+    <div class="attach-item"><i class="fas fa-username"</div>
+        <div class="attach-item"><i class="fas fa-file"</div>
+            <div class="attach-item"><i class="fas fa-headphone"</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
